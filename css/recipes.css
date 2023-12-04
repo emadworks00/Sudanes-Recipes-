@@ -1,0 +1,48 @@
+
+
+body {
+	font-family: sans-serif;
+	line-height: 2;
+}
+
+
+/*        recipe-header      */
+
+ 
+.recipe-header {
+margin: 2em 0;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align:  center;	
+}
+
+ .recipe-header h1 {
+	color: #0145fe;
+	font-size: 2rem;
+    text-transform: uppercase;
+}
+.recipe-header  img{
+width: 25rem;
+
+}
+
+
+
+section {
+width: 70%;
+margin: 2em auto 4em;
+}
+
+li a {
+	color: #fc9903;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+li a:hover {
+	color: #0145fe;
+	text-decoration: underline;
+}
